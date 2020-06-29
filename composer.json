@@ -1,0 +1,32 @@
+{
+    "name": "i9/magento2-cepbrasil",
+    "description": "Adiciona validação de cep do brasil no endereço.",
+    "require": {},
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/i9-digital/CepBrasil"
+        }
+    ],
+    "type": "magento2-module",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "I9\\CepBrasil\\": ""
+        }
+    },
+    "extra": {
+        "map": [
+            [
+                "*",
+                "I9/CepBrasil"
+            ]
+        ]
+    }
+}
