@@ -1,0 +1,29 @@
+{
+    "name": "i9/magento2-cepbrasil",
+    "description": "",
+    "require": {},
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/i9-digital/CepBrasil"
+        }
+    ],
+    "type": "magento2-module",
+    "version": "0.0.1",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "I9\\CepBrasil\\": ""
+        }
+    },
+    "extra": {
+        "map": [
+            [
+                "*",
+                "I9/CepBrasil"
+            ]
+        ]
+    }
+}
